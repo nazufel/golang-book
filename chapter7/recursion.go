@@ -12,4 +12,7 @@ func factorial(x uint) uint {
 func main() {
 	//factorial(2)
 	fmt.Println(factorial(2))
+	fmt.Println(factorial(3))
+	fmt.Println(factorial(4))
+	fmt.Println(factorial(5))
 }

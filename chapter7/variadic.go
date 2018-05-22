@@ -5,7 +5,7 @@ import (
 	"sort"
 )
 
-func findLarge(nums ...int) int {
+func findLarge(nums ...int) {
 	// sort the list
 	sort.Ints(nums)
 
@@ -16,8 +16,6 @@ func findLarge(nums ...int) int {
 	// print the hightest number in the list
 	fmt.Println(highest)
 
-	// go-plus wants me to return at the end. not sure why, but it compiles.
-	return highest
 }
 
 func main() {
