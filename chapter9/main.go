@@ -62,3 +62,8 @@ func main() {
 	findCirArea(c1)
 	findRecArea(p1)
 }
+
+/*
+also, didn't copy from the Internet either. just watched a lot of videos on the topic,
++ and applied the concepts to this exercise.
+*/
