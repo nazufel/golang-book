@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	xs := []float64{1, 2, 3, 4}
+	xs := []float64{1, 2, 3, 4, 5, 0, 55}
 	avg := math.Average(xs)
 	fmt.Println(avg)
 	max := math.Max(xs)
